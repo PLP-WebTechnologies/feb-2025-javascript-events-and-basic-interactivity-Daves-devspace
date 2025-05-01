@@ -1,0 +1,98 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease;
+}
+
+#keypressInput {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#output {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Gallery */
+#gallery {
+    margin-top: 30px;
+}
+
+.galleryImage {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.galleryImage:hover {
+    transform: scale(1.1);
+}
+
+/* Tabs */
+#tabs {
+    margin-top: 50px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Form */
+form {
+    margin-top: 40px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#formFeedback {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}

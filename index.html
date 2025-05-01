@@ -4,11 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive Fun</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+    <!-- Button Click Event -->
+    <button id="myButton">Click Me</button>
+
+    <!-- Hover Effect -->
+    <div id="hoverBox" class="box">Hover over me!</div>
+
+    <!-- Keypress Detection -->
+    <input type="text" id="keypressInput" placeholder="Press any key">
+    <div id="keyPressedMessage"></div>
+    <br>
+
+    <!-- Image Gallery -->
+    <div id="gallery">
+        <img src="images/preacher.jpg" alt="Image 1" class="galleryImage">
+        <img src="images/preacher2.jpg" alt="Image 2" class="galleryImage">
+        <img src="images/realtime verse overlay.png" alt="Image 3" class="galleryImage">
+    </div>
+
+    <!-- Tabs -->
+    <div id="tabs">
+        <button class="tab" data-tab="tab1">Tab 1</button>
+        <button class="tab" data-tab="tab2">Tab 2</button>
+        <button class="tab" data-tab="tab3">Tab 3</button>
+    </div>
+
+    <div id="tabContent">
+        <div id="tab1" class="tabContent">Content for Tab 1</div>
+        <div id="tab2" class="tabContent" style="display: none;">Content for Tab 2</div>
+        <div id="tab3" class="tabContent" style="display: none;">Content for Tab 3</div>
+    </div>
+
+    <!-- Form Validation -->
+    <form id="signupForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter password" required>
+        <button type="submit">Sign Up</button>
+        <div id="formFeedback"></div>
+    </form>
+
+    <div id="output"></div>
+    <br>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
